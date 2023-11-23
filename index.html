@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>ELC</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="row pt-3 pb-3">
+                <div class="col-6 col-md-6">
+                    <div class="d-flex flex-row justify-content-start align-itmes-center">
+                        <img src="./images/logo2.png" class="img-fluid" alt>
+                        <div class="d-flex flex-column justify-content-end ps-md-4 ps-3">
+                            <a class="navbar-brand p-0" href="#">FIND A
+                                PROGRAM</a>
+                            <small class="search-result"><i class="fa-solid fa-magnifying-glass"
+                                    style="color: #969696;"></i> Search
+                                Results
+                                <span class="nav-prog">(467 Programs)</span></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-6">
+                    <button class="btn btn-danger languages float-end" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <img src="./images/language-square.png" alt class="img-fluid d-none d-md-inline">
+                        Eng <i class="fas fa-chevron-down" style="color: black;"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Chines</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-4 pb-4">
+
+                <div class="col-md-4 d-flex ">
+                    <div class="input-group flex-row justify-content-center align-items-center custom-input-div">
+                        <i class="fa-solid fa-magnifying-glass me-2" style="color: #969696;"></i>
+                        <input type="text" class="form-control border-0 custom-input" placeholder="Search name ..">
+                        <div class="filter-div">
+                            <img src="./images/sort.png" class="img-fluid ms-2 me-2" alt> Filter
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="input-group flex-row justify-content-center align-items-center custom-input-div">
+                        <i class="fa-solid fa-location-dot me-2" style="color: #969696;"></i>
+                        <input type="text" class="form-control border-0 custom-input" placeholder="Enter location">
+                        <i class="fa-solid fa-location-crosshairs ms-2"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 d-none d-md-block">
+                    <div class="input-group flex-row justify-content-center align-items-center custom-input-div">
+                        <!-- <i class="fa-solid fa-location-dot me-2" style="color: #969696;"></i> -->
+                        <input type="text" class="form-control border-0 custom-input" placeholder="Within ( miles )">
+                        <!-- <i class="fa-solid fa-location-crosshairs ms-2"></i> -->
+                        <img src="./images/arrows.png" class="img-fluid ms-2" alt>
+
+                    </div>
+                </div>
+                <div class="col-md-2 d-none d-md-block ">
+
+                    <div class="input-group flex-row justify-content-center align-items-center">
+                        <button class="btn btn-md search-program">Search
+                            Program</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper2 pt-4">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="d-flex flex-row justify-content-center mb-3 d-sm-block d-md-none pt-1 pb-1 rounded-3"
+                    style="background-color: white;">
+                    <button class="btn btn-md pt-2 pb-2 prog-list">Programs List</button>
+                    <button class="btn btn-md ms-2 pt-2 pb-2 view-map">View in map</button>
+                </div>
+
+                <div class="col-md-7 pe-3 pe-md-5" id="main-container">
+
+                    <span class="mini-title">Search Program Results</span>
+                    <span class="mini-count float-end">(467)</span>
+
+                    <div class="row mycard mt-3">
+                        <div class="col-md-5 mycard-col br-1">
+                            <img src="./images/card-1.png" class="card-img-top" style="border-radius: 16px;" alt="...">
+                            <div class="d-flex flex-row justify-content-start align-items-center div-content">
+                                <span class="bg-light ms-2 rounded-1 content-text">After School</span>
+                                <span class="bg-light ms-2 rounded-1 content-text">Summer Camp</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 mycard-col br-2">
+                            <i class="fa-regular fa-heart float-end like" style="color: #888888;"></i><br>
+                            <h4 class="m-0 card-title">Abundant Living Citi
+                                Church, Inc.</h4>
+                            <small>Abundant Living Citi Church, Inc </small>
+                            <hr>
+
+                            <ul style="list-style: none; margin: 0; padding: 0;" class="d-none d-md-block">
+                                <li>
+                                    <i class="fa-solid fa-phone me-1" style="color: #888888;"></i>
+                                    <b class="card-info">Contact: </b>
+                                    <span class="card-info">Maria Meena</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot me-2" style="color: #888888;"></i>
+                                    <b class="card-info">Location: </b>
+                                    <span class="card-info">#001 NW
+                                        22nd.Miami, FL 33142</span>
+                                </li>
+                            </ul>
+                            <hr class="d-none d-md-block">
+                            <div class="row">
+                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                    <div class="des-div">
+                                        <i class="fa-solid fa-envelope" style="color: #888888;"></i>
+                                    </div>
+
+                                    <div class="des-div">
+                                        <i class="fa-solid fa-phone" style="color: #888888;"></i>
+                                    </div>
+
+                                    <div class="des-div">
+                                        <i class="fa-solid fa-globe" style="color: #888888;"></i>
+                                    </div>
+
+                                    <div class="btn-div">
+                                        <button class="btn btn-md info-btn">More Information</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mycard mt-3">
+                        <div class="col-md-5 mycard-col br-1">
+                            <img src="./images/card-1.png" class="card-img-top" style="border-radius: 16px;" alt="...">
+                            <div class="d-flex flex-row justify-content-start align-items-center div-content">
+                                <span class="bg-light ms-2 rounded-1 content-text">After School</span>
+                                <span class="bg-light ms-2 rounded-1 content-text">Summer Camp</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 mycard-col br-2">
+                            <i class="fa-regular fa-heart float-end like" style="color: #888888;"></i><br>
+                            <h4 class="m-0 card-title">Abundant Living Citi
+                                Church, Inc.</h4>
+                            <small>Abundant Living Citi Church, Inc </small>
+                            <hr>
+
+                            <ul style="list-style: none; margin: 0; padding: 0;" class="d-none d-md-block">
+                                <li>
+                                    <i class="fa-solid fa-phone me-1" style="color: #888888;"></i>
+                                    <b class="card-info">Contact: </b>
+                                    <span class="card-info">Maria Meena</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot me-2" style="color: #888888;"></i>
+                                    <b class="card-info">Location: </b>
+                                    <span class="card-info">#001 NW
+                                        22nd.Miami, FL 33142</span>
+                                </li>
+                            </ul>
+                            <hr class="d-none d-md-block">
+                            <div class="row">
+                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                    <div class="des-div">
+                                        <i class="fa-solid fa-envelope" style="color: #888888;"></i>
+                                    </div>
+
+                                    <div class="des-div">
+                                        <i class="fa-solid fa-phone" style="color: #888888;"></i>
+                                    </div>
+
+                                    <div class="des-div">
+                                        <i class="fa-solid fa-globe" style="color: #888888;"></i>
+                                    </div>
+
+                                    <div class="btn-div">
+                                        <button class="btn btn-md info-btn">More Information</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mycard mt-3">
+                        <div class="col-md-5 mycard-col br-1">
+                            <img src="./images/card-1.png" class="card-img-top" style="border-radius: 16px;" alt="...">
+                            <div class="d-flex flex-row justify-content-start align-items-center div-content">
+                                <span class="bg-light ms-2 rounded-1 content-text">After School</span>
+                                <span class="bg-light ms-2 rounded-1 content-text">Summer Camp</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-7 mycard-col br-2">
+                            <i class="fa-regular fa-heart float-end like" style="color: #888888;"></i><br>
+                            <h4 class="m-0 card-title">Abundant Living Citi Church, Inc.</h4>
+                            <small>Abundant Living Citi Church, Inc </small>
+                            <hr>
+
+                            <ul style="list-style: none; margin: 0; padding: 0;" class="d-none d-md-block">
+                                <li>
+                                    <i class="fa-solid fa-phone me-1" style="color: #888888;"></i>
+                                    <b class="card-info">Contact:
+                                    </b>
+                                    <span class="card-info">Maria
+                                        Meena</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot me-2" style="color: #888888;"></i>
+                                    <b class="card-info">Location:
+                                    </b>
+                                    <span class="card-info">#001 NW
+                                        22nd.Miami, FL 33142</span>
+                                </li>
+                            </ul>
+                            <hr class="d-none d-md-block">
+                            <div class="row">
+                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                    <div class="des-div">
+                                        <i class="fa-solid fa-envelope" style="color: #888888;"></i>
+                                    </div>
+
+                                    <div class="des-div">
+                                        <i class="fa-solid fa-phone" style="color: #888888;"></i>
+                                    </div>
+
+                                    <div class="des-div">
+                                        <i class="fa-solid fa-globe" style="color: #7B7171;"></i>
+                                    </div>
+
+                                    <div class="btn-div">
+                                        <button class="btn btn-md info-btn">More
+                                            Information</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-5 p-2">
+                    <iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874608.749188822!2d-98.569883!3d39.833849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87a18a89a19d8f5d%3A0xe7e0155057a52548!2sUnited%20States!5e0!3m2!1sen!2sus!4v1633988576308!5m2!1sen!2sus"
+                        allowfullscreen style="border-radius: 12px;"></iframe>
+                </div>
+
+            </div>
+        </div>
+        <div class="fixed-bottom fixed-div d-flex flex-row justify-content-around d-none">
+            <div class="d-flex flex-row justify-content-center align-items-center">
+                <span class="fix-text">(55) marked as favorite</span>
+            </div>
+            <div class="d-flex flex-row justify-content-center align-items-center">
+                <button class="btn btn-sm fix-button fix-button-1 me-2">Download <i class="fa-solid fa-download"
+                        style="color: #fff;"></i></button>
+                <button class="btn btn-sm fix-button fix-button-2">Email us <i class="fa-solid fa-envelope"
+                        style="color: #1F4397;"></i></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- //Filter Modal -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+
+                    <small class="filter-title">Categories</small>
+                    <div class="d-flex flex-wrap justify-content-between mt-2" style="row-gap: 5px; column-gap: 5px;">
+                        <div class="check-out col-12 col-md-3 ">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked1">
+                                    After School
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="check-out col-12 col-md-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2">
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked2">
+                                    Summer Camps
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="check-out col-12 col-md-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3">
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked3">
+                                    Special Needs
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="check-out col-12 col-md-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4">
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked4">
+                                    Family Support
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <small class="filter-title">Grade Range</small>
+                    <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
+                        <div class="check-out">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked">
+                                    Elementary (K-1)
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="check-out">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked">
+                                    Middle (6-8)
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="check-out">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked">
+                                    High School (9-12)
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="check-out">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked">
+                                    Family Support
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <small class="filter-title">Age Group</small>
+                    <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
+                        <div class="check-out">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked">
+                                    0-5 Years
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="check-out">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked">
+                                    5-11 Years
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="check-out">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked">
+                                    0-5 Years
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <div class="check-out">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                                <label class="form-check-label checkbox-text" for="flexCheckChecked">
+                                    0-5 Years
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row justify-content-between align-items-center mt-5">
+                        <button class="btn btn-danger btn-md w-100 filter-submit border-0">Search Program</button>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
+            // alert('helo');
+        })
+    </script>
+</body>
+
+</html>
